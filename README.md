@@ -1,0 +1,99 @@
+# Crossbuild UI ✨
+
+Welcome to the official **Crossbuild UI** GitHub repository — the central hub for open-source themes and app templates built using the [Crossbuild UI](https://www.crossbuildui.com). This repo powers the core visual identity and reusable app structure for teams building Expo apps with both **speed** and **style**.
+
+> 🚀 Use our templates to kickstart your next mobile app project with out-of-the-box support for theming, responsiveness, and accessibility.
+
+---
+
+## 🌱 What's Inside
+
+This monorepo contains:
+
+### 📦 Templates (`/templates`)
+
+Pre-configured Expo app boilerplates using Crossbuild UI components.
+
+* **`default/`** – A minimal, clean slate to get started with Expo + Crossbuild UI.
+* **`cbui-free/`** – A starter template using **free** Crossbuild UI components.
+* **`cbui-pro/`** – A premium template leveraging **Pro** components (available to Pro users).
+
+Each template includes:
+
+* Crossbuild UI theming (`@crossbuildui/core`)
+* Dark/light mode support
+* Organized file structure for scalability
+* Instant Expo compatibility
+
+> 📚 See [Getting Installation Documentation](https://www.crossbuildui.com/docs/getting-started/installation) to install and configure templates or create your own.
+
+### 🎨 Themes (`/themes`)
+
+Modular theme files you can copy or extend in your project.
+
+* **default-theme.ts**
+* **modern-theme.ts**
+* More coming soon...
+
+These themes define colors, typography, spacings, and component tokens. Easily plug them into any app using Crossbuild UI's theming system.
+
+> 📚 See [Theming Documentation](https://www.crossbuildui.com/docs/getting-started/theming) to learn how to apply or create your own themes.
+
+---
+
+## 🛠️ Getting Started
+
+Pick a template and get your app running in minutes.
+
+### 1. Clone the template
+
+```bash
+cbui-cli init my-expo-app@latest
+or
+cbui-cli init my-expo-app@latest --template default / cbui-free / cbui-pro
+cd my-expo-app
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the app (using Expo)
+
+```bash
+npx expo start
+```
+
+> You can substitute `default` with `cbui-free` or `cbui-pro` to try different setups.
+
+---
+
+## 📚 Documentation & Resources
+
+* [Getting Started Guide](https://www.crossbuildui.com/docs/getting-started/introduction)
+* [Theming System](https://www.crossbuildui.com/docs/getting-started/theming)
+* [Component Library](https://www.crossbuildui.com/docs/components/button)
+* [API Reference](https://www.crossbuildui.com/docs/api/core)
+
+---
+
+## 💬 Join the Community
+
+* 🤝 [GitHub Discussions](https://github.com/crossbuildui/crossbuildui/discussions)
+* 💬 [Discord](https://discord.gg/UNFyAjsp)
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Whether it’s a new template, a custom theme, or a bugfix — please feel free to open a PR or issue.
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
+
+---
+
+## 📝 License
+
+This repository is open-sourced under the [Crossbuild UI License](./LICENSE).
