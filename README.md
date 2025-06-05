@@ -58,6 +58,7 @@ cd my-expo-app
 
 ```bash
 npm install
+cbui-cli install #need to run if using any template other than default
 ```
 
 ### 3. Run the app with Expo
