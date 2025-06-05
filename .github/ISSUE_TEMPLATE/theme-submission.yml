@@ -1,0 +1,56 @@
+name: 🎨 Theme Submission
+description: Submit a new theme for Crossbuild UI with your custom design tokens.
+title: "feat: add [theme-name] theme"
+labels: [theme, contribution]
+assignees:
+  - crossbuildui-maintainers
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing a new theme to Crossbuild UI! Please complete the checklist and details below.
+
+  - type: input
+    id: theme-name
+    attributes:
+      label: Theme Name
+      description: Use kebab-case (e.g., soft-glow-theme, oceanic-dark-theme)
+      placeholder: "my-custom-theme"
+    validations:
+      required: true
+
+  - type: textarea
+    id: theme-description
+    attributes:
+      label: Description
+      description: Provide a brief description of the theme and its design intent.
+      placeholder: |
+        Example: A soft, minimal theme inspired by iOS design with gentle shadows and rounded corners.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: theme-checklist
+    attributes:
+      label: Submission Checklist
+      options:
+        - label: Theme file (e.g., `my-custom-theme.ts`) added to the `/themes` folder
+        - label: Exports a valid Crossbuild UI `Theme` object
+        - label: Includes both `light` and `dark` variants or tokens
+        - label: Theme has been tested in an Expo app using `CrossbuildProvider`
+        - label: Naming and structure match existing themes
+        - label: I’ve documented the theme’s palette and token usage in a comment or README
+
+  - type: textarea
+    id: theme-preview
+    attributes:
+      label: Preview or Screenshots (Optional)
+      description: Share screenshots or a preview link to demonstrate your theme in use.
+
+  - type: input
+    id: github-profile
+    attributes:
+      label: Your GitHub Profile
+      placeholder: https://github.com/yourusername
+    validations:
+      required: true

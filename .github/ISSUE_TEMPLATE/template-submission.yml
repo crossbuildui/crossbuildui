@@ -1,0 +1,58 @@
+name: 🚀 Template Submission
+description: Submit a new Expo + Crossbuild UI template for inclusion in the official repository.
+title: "feat: add [template-name] template"
+labels: [template, contribution]
+assignees:
+  - crossbuildui-maintainers
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing to Crossbuild UI! Please complete the form below to help us review your template efficiently.
+
+  - type: input
+    id: template-name
+    attributes:
+      label: Template Name
+      description: Use kebab-case (e.g., ecommerce-starter, cbui-dashboard)
+      placeholder: "your-template-name"
+    validations:
+      required: true
+
+  - type: textarea
+    id: template-description
+    attributes:
+      label: Description & Features
+      description: Provide a short summary of what the template does and its key features.
+      placeholder: |
+        Example: A modern e-commerce starter template with pre-built screens, product cards, and shopping cart integration.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Submission Checklist
+      description: Please ensure all items are completed before submitting.
+      options:
+        - label: Template runs correctly with `npx expo start`
+        - label: README.md is included with setup and usage instructions
+        - label: Theme integration using `CrossbuildProvider` is set up
+        - label: Template supports both light and dark modes
+        - label: No unused files or dependencies included
+        - label: I’ve tested on Android, iOS, and optionally Web
+
+  - type: textarea
+    id: additional-notes
+    attributes:
+      label: Additional Notes or Context (Optional)
+      description: Anything else the maintainers should know about this submission.
+      placeholder: Links to demo apps, screenshots, etc.
+
+  - type: input
+    id: github-profile
+    attributes:
+      label: Your GitHub Profile
+      placeholder: https://github.com/yourusername
+    validations:
+      required: true

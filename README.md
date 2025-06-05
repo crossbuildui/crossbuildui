@@ -12,47 +12,47 @@ This monorepo contains:
 
 ### 📦 Templates (`/templates`)
 
-Pre-configured Expo app boilerplates using Crossbuild UI components.
+Pre-configured Expo app boilerplates using Crossbuild UI components:
 
-* **`default/`** – A minimal, clean slate to get started with Expo + Crossbuild UI.
-* **`cbui-free/`** – A starter template using **free** Crossbuild UI components.
-* **`cbui-pro/`** – A premium template leveraging **Pro** components (available to Pro users).
+- **`default/`** – A minimal, clean slate to get started with Expo + Crossbuild UI.
+- **`cbui-free/`** – A starter template using **free** Crossbuild UI components.
+- **`cbui-pro/`** – A premium template leveraging **Pro** components (available to Pro users).
 
 Each template includes:
 
-* Crossbuild UI theming (`@crossbuildui/core`)
-* Dark/light mode support
-* Organized file structure for scalability
-* Instant Expo compatibility
+- Crossbuild UI theming (`@crossbuildui/core`)
+- Dark/light mode support
+- Organized file structure for scalability
+- Instant Expo compatibility
 
-> 📚 See [Getting Installation Documentation](https://www.crossbuildui.com/docs/getting-started/installation) to install and configure templates or create your own.
+> 📚 See the [Installation Guide](https://www.crossbuildui.com/docs/getting-started/installation) to install and configure templates or create your own.
 
 ### 🎨 Themes (`/themes`)
 
-Modular theme files you can copy or extend in your project.
+Modular theme files you can copy or extend in your project:
 
-* **default-theme.ts**
-* **modern-theme.ts**
-* More coming soon...
+- `default-theme.ts`
+- `modern-theme.ts`
+- More coming soon...
 
-These themes define colors, typography, spacings, and component tokens. Easily plug them into any app using Crossbuild UI's theming system.
+These themes define color palettes, typography, spacing, and tokenized styles. You can easily plug them into any Expo app using Crossbuild UI's theming system.
 
-> 📚 See [Theming Documentation](https://www.crossbuildui.com/docs/getting-started/theming) to learn how to apply or create your own themes.
+> 📚 See the [Theming Guide](https://www.crossbuildui.com/docs/getting-started/theming) for full customization instructions.
 
 ---
 
 ## 🛠️ Getting Started
 
-Pick a template and get your app running in minutes.
+Choose a template and launch your app in minutes.
 
 ### 1. Clone the template
 
 ```bash
 cbui-cli init my-expo-app@latest
-or
-cbui-cli init my-expo-app@latest --template default / cbui-free / cbui-pro
+# or specify a template
+cbui-cli init my-expo-app@latest --template default
 cd my-expo-app
-```
+````
 
 ### 2. Install dependencies
 
@@ -60,13 +60,13 @@ cd my-expo-app
 npm install
 ```
 
-### 3. Run the app (using Expo)
+### 3. Run the app with Expo
 
 ```bash
 npx expo start
 ```
 
-> You can substitute `default` with `cbui-free` or `cbui-pro` to try different setups.
+> Substitute `default` with `cbui-free` or `cbui-pro` to explore other options.
 
 ---
 
@@ -88,12 +88,23 @@ npx expo start
 
 ## 🤝 Contributing
 
-We welcome contributions! Whether it’s a new template, a custom theme, or a bugfix — please feel free to open a PR or issue.
+We welcome contributions to templates, themes, and documentation! Start here:
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
+* 📄 [CONTRIBUTING.md](./CONTRIBUTING.md)
+* ✅ [Template Submission Checklist](./.github/TEMPLATE_SUBMISSION_CHECKLIST.md)
+* 🐛 [Bug Report Form](https://github.com/crossbuildui/crossbuildui/issues/new?template=bug-report.yml)
+* 🎨 [Theme Submission Form](https://github.com/crossbuildui/crossbuildui/issues/new?template=theme-submission.yml)
+
+> Note: Contributions to core components are **invite-only**. To apply, email us at [support@crossbuildui.com](mailto:support@crossbuildui.com) with your GitHub profile and experience.
+
+---
+
+## 🛡 Code of Conduct
+
+All contributors are expected to follow our [Code of Conduct](./CODE_OF_CONDUCT.md).
 
 ---
 
 ## 📝 License
 
-This repository is open-sourced under the [Crossbuild UI License](./LICENSE).
+This project is licensed under the [Crossbuild UI License](./LICENSE).
