@@ -15,8 +15,8 @@ This monorepo contains:
 Pre-configured Expo app boilerplates using Crossbuild UI components:
 
 - **`default/`** – A minimal, clean slate to get started with Expo + Crossbuild UI.
-- **`cbui-free/`** – A starter template using **free** Crossbuild UI components.
-- **`cbui-pro/`** – A premium template leveraging **Pro** components (available to Pro users).
+- **`stock-app/`** – A minimal, stock app inspired from figma to get started with Expo + Crossbuild UI.
+- More templates and examples, including visual previews, coming soon!
 
 Each template includes:
 
