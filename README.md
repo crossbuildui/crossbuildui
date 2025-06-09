@@ -4,6 +4,16 @@ Welcome to the official **Crossbuild UI** GitHub repository — the central hub 
 
 > 🚀 Use our templates to kickstart your next mobile app project with out-of-the-box support for theming, responsiveness, and accessibility.
 
+### 🎨 Figma-to-Code Reference
+
+The following preview images are directly based on original Figma designs. These serve as visual references for developers to recreate pixel-perfect UIs using Crossbuild UI components in Expo apps.
+
+You can access the original Figma files here:
+[Figma Design File – Stock App](https://www.figma.com/design/zwzraXXhGMvlsHTRiU4qSt/Colorful-Stock-App---iOS-UI-Kit--Community-?m=auto&t=sgQj250NDCxdlCaO-6)
+[Figma Design File – Wallet App](https://www.figma.com/design/HvktxTgLVFeLC34cosA12u/Unipay--Wallet-App-iOS-UI-Design-System-v1.1--Community-)
+
+<img src="screens/StockApp.png" width="220"/> <img src="screens/WalletLight.png" width="220"/> <img src="screens/WalletDark.png" width="220"/>
+
 ---
 
 ## 🌱 What's Inside
