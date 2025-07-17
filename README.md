@@ -1,121 +1,273 @@
 # Crossbuild UI ✨
 
-Welcome to the official **Crossbuild UI** GitHub repository — the central hub for open-source themes and app templates built using the [Crossbuild UI](https://www.crossbuildui.com). This repo powers the core visual identity and reusable app structure for teams building Expo apps with both **speed** and **style**.
+Welcome to the official **Crossbuild UI** GitHub repository — the central hub for open-source components, themes, and templates built using the [Crossbuild UI](https://www.crossbuildui.com) system. This project enables developers to build Expo apps faster with beautiful, flexible UI and developer-first tooling.
 
-> 🚀 Use our templates to kickstart your next mobile app project with out-of-the-box support for theming, responsiveness, and accessibility.
-
-### 🎨 Figma-to-Code Reference
-
-The following preview images are directly based on original Figma designs. These serve as visual references for developers to recreate pixel-perfect UIs using Crossbuild UI components in Expo apps.
-
-You can access the original Figma files here:
-[Figma Design File – Stock App](https://www.figma.com/design/zwzraXXhGMvlsHTRiU4qSt/Colorful-Stock-App---iOS-UI-Kit--Community-?m=auto&t=sgQj250NDCxdlCaO-6)
-[Figma Design File – Wallet App](https://www.figma.com/design/HvktxTgLVFeLC34cosA12u/Unipay--Wallet-App-iOS-UI-Design-System-v1.1--Community-)
-
-<img src="screens/StockApp.png" width="220"/> <img src="screens/WalletLight.png" width="220"/> <img src="screens/WalletDark.png" width="220"/>
+> ⚡️ Contribute real components, themes, and templates that developers use in production — and get full credit across our site, docs, and GitHub.
 
 ---
 
-## 🌱 What's Inside
+## 💎 What’s Inside
 
 This monorepo contains:
 
 ### 📦 Templates (`/templates`)
+Pre-built Expo apps using Crossbuild UI components:
 
-Pre-configured Expo app boilerplates using Crossbuild UI components:
+- `default/`: Minimal starter kit.
+- More examples coming soon!
 
-- **`default/`** – A minimal, clean slate to get started with Expo + Crossbuild UI.
-- **`stock-app/`** – A minimal, stock app inspired from figma to get started with Expo + Crossbuild UI.
-- More templates and examples, including visual previews, coming soon!
-
-Each template includes:
-
-- Crossbuild UI theming (`@crossbuildui/core`)
-- Dark/light mode support
-- Organized file structure for scalability
-- Instant Expo compatibility
-
-> 📚 See the [Installation Guide](https://www.crossbuildui.com/docs/getting-started/installation) to install and configure templates or create your own.
+---
 
 ### 🎨 Themes (`/themes`)
-
-Modular theme files you can copy or extend in your project:
+Theme files that define colors, spacing, and tokens:
 
 - `default-theme.ts`
 - `modern-theme.ts`
-- More coming soon...
 
-These themes define color palettes, typography, spacing, and tokenized styles. You can easily plug them into any Expo app using Crossbuild UI's theming system.
-
-> 📚 See the [Theming Guide](https://www.crossbuildui.com/docs/getting-started/theming) for full customization instructions.
+> Easily drop these into any Crossbuild-powered Expo app.
 
 ---
 
-## 🛠️ Getting Started
+### 🧩 Component Contribution App (`/component_contribution`)
+A full Expo app setup where anyone can contribute new **Crossbuild UI components**.
 
-Choose a template and launch your app in minutes.
+- All contributions are made in the [`open-contribution`](https://github.com/crossbuildui/crossbuildui/tree/open-contribution) branch.
+- Finalized components are reviewed and merged into `main` by the core team.
 
-### 1. Clone the template
+📄 [View component contribution guide →](./component_contribution/README.md)
+
+---
+
+## 🚀 Get Started with a Template
 
 ```bash
 cbui-cli init my-expo-app@latest
-# or specify a template
-cbui-cli init my-expo-app@latest --template default
-cd my-expo-app
-````
-
-### 2. Install dependencies
-
-```bash
-npm install
-cbui-cli install #need to run if using any template other than default
+# or choose a specific template
+cbui-cli init my-app@latest --template stock-app
 ```
 
-### 3. Run the app with Expo
-
 ```bash
+cd my-app
+npm install
 npx expo start
 ```
 
-> Substitute `default` with `cbui-free` or `cbui-pro` to explore other options.
+> For non-default templates, run:  
+> `cbui-cli install`
 
 ---
 
-## 📚 Documentation & Resources
+## 🧠 Contribute to Crossbuild UI
 
-* [Getting Started Guide](https://www.crossbuildui.com/docs/getting-started/introduction)
-* [Theming System](https://www.crossbuildui.com/docs/getting-started/theming)
-* [Component Library](https://www.crossbuildui.com/docs/components/button)
-* [API Reference](https://www.crossbuildui.com/docs/api/core)
+We now **accept public contributions** for new components, templates, and themes!
+
+### ✅ Contribute a Component
+
+1. **Switch to the `open-contribution` branch**
+2. Navigate to `/component_contribution/components`
+3. Create a new folder with your component name:
+    ```
+    component_contribution/
+      components/
+        MyComponent/
+          MyComponent.tsx
+          index.ts
+          types.ts
+          README.md
+    ```
+4. Add a demo preview file at:
+    ```
+    component_contribution/app/MyComponent/index.tsx
+    ```
+5. Link it in `app/index.tsx` for navigation.
+
+6. Commit to `open-contribution` and submit a PR.
+
+📘 Full structure and checklist here: [Component Contribution Guide](./component_contribution/README.md)
 
 ---
 
-## 💬 Join the Community
+### ✨ Other Ways to Contribute
 
-* 🤝 [GitHub Discussions](https://github.com/crossbuildui/crossbuildui/discussions)
-* 💬 [Discord](https://discord.gg/UNFyAjsp)
+- 🖼 Submit custom themes → `/themes`
+- 📱 Submit a template → `/templates`
+- 🐛 Report a bug → [New Issue](https://github.com/crossbuildui/crossbuildui/issues/new?template=bug-report.yml)
 
 ---
 
-## 🤝 Contributing
+## 📚 Documentation
 
-We welcome contributions to templates, themes, and documentation! Start here:
+- [Getting Started](https://www.crossbuildui.com/docs/getting-started/introduction)
+- [Theming Guide](https://www.crossbuildui.com/docs/getting-started/theming)
+- [Component API](https://www.crossbuildui.com/docs/components)
+- [CBUI CLI](https://www.crossbuildui.com/docs/cli/introduction)
 
-* 📄 [CONTRIBUTING.md](./CONTRIBUTING.md)
-* ✅ [Template Submission Checklist](./.github/TEMPLATE_SUBMISSION_CHECKLIST.md)
-* 🐛 [Bug Report Form](https://github.com/crossbuildui/crossbuildui/issues/new?template=bug-report.yml)
-* 🎨 [Theme Submission Form](https://github.com/crossbuildui/crossbuildui/issues/new?template=theme-submission.yml)
+---
 
-> Note: Contributions to core components are **invite-only**. To apply, email us at [support@crossbuildui.com](mailto:support@crossbuildui.com) with your GitHub profile and experience.
+## 💬 Community
+
+- 💬 [Discord](https://discord.gg/UNFyAjsp)
+- 📢 [GitHub Discussions](https://github.com/crossbuildui/crossbuildui/discussions)
+
+---
+
+## 🤝 Recognition & Credits
+
+We credit all contributors who help build Crossbuild UI on:
+
+- The [official site](https://www.crossbuildui.com/contributors)
+- Component pages
+- GitHub contributor graphs
+
+---
+
+# 🌟 Contributors
+
+<div>
+  <p><em>🚀 Meet Our Amazing Contributors who made Crossbuild UI possible!</em></p>
+</div>
+
+<table>
+  <tr>
+    <td align="center" width="200px">
+      <a href="https://github.com/gaurav-1302">
+        <img src="https://github.com/gaurav-1302.png" width="100px;" alt="Founder"/>
+        <br />
+        <sub><b>Gaurav Singh</b></sub>
+        <br/>
+      </a>
+      <br />
+      <img src="https://img.shields.io/badge/👑-Founder-gold?style=for-the-badge" alt="Founder" title="Founder"/>
+      <br />
+      <img src="https://img.shields.io/badge/🧱-UI%20Architect-blue?style=flat-square" alt="UI Architect"/>
+      <img src="https://img.shields.io/badge/🎨-Theme%20Wizard-purple?style=flat-square" alt="Theme Wizard"/>
+      <img src="https://img.shields.io/badge/⚙️-Template%20Engineer-green?style=flat-square" alt="Template Engineer"/>
+      <img src="https://img.shields.io/badge/🚀-Early%20Builder-orange?style=flat-square" alt="Early Builder"/>
+    </td>
+    <td align="center" width="200px">
+      <a href="https://github.com/shivansh2511">
+        <img src="https://github.com/shivansh2511.png" width="100px;"/>
+        <br />
+        <sub><b>Shivansh Srivastava</b></sub>
+        <br/>
+      </a>
+      <br />
+      <img src="https://img.shields.io/badge/💻-Core%20Developer-silver?style=for-the-badge" alt="Core Developer"/>
+      <br />
+      <img src="https://img.shields.io/badge/🐛-Bug%20Buster-red?style=flat-square" alt="Bug Buster"/>
+      <img src="https://img.shields.io/badge/🚀-Early%20Builder-orange?style=flat-square" alt="Early Builder"/>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🏆 Badge System
+
+<div>
+  <h3>🎯 Contribution Badges</h3>
+  <p><em>Badges are automatically awarded based on your contributions!</em></p>
+</div>
+
+<table>
+  <tr>
+    <th>Badge</th>
+    <th>Description</th>
+    <th>How to Earn</th>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/👑-Founder-gold?style=flat-square" alt="Founder"/></td>
+    <td><strong>Founder</strong></td>
+    <td>Project founder and creator</td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/🧱-UI%20Architect-blue?style=flat-square" alt="UI Architect"/></td>
+    <td><strong>UI Architect</strong> - Component Creator</td>
+    <td>Contributed a fully functional new UI component</td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/🎨-Theme%20Wizard-purple?style=flat-square" alt="Theme Wizard"/></td>
+    <td><strong>Theme Wizard</strong> - Theme Designer</td>
+    <td>Designed or improved a theme with color tokens and typography</td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/⚙️-Template%20Engineer-green?style=flat-square" alt="Template Engineer"/></td>
+    <td><strong>Template Engineer</strong> - Template Builder</td>
+    <td>Added a complete app template for Expo using Crossbuild UI</td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/🐛-Bug%20Buster-red?style=flat-square" alt="Bug Buster"/></td>
+    <td><strong>Bug Buster</strong> - Bug Fixer</td>
+    <td>Fixed a major bug or issue</td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/🧰-Doc%20Mechanic-yellow?style=flat-square&logo=book" alt="Doc Mechanic"/></td>
+    <td><strong>Doc Mechanic</strong> - Docs Contributor</td>
+    <td>Improved official documentation</td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/🚀-Early%20Builder-orange?style=flat-square" alt="Early Builder"/></td>
+    <td><strong>Early Builder</strong> - Early Contributor</td>
+    <td>Among the first 10 contributors to the project</td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/🌍-Global%20Dev-brightgreen?style=flat-square" alt="Global Dev"/></td>
+    <td><strong>Global Dev</strong> - Community Advocate</td>
+    <td>Shared or promoted the project across communities</td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/🔐-Security%20Scout-red?style=flat-square" alt="Security Scout"/></td>
+    <td><strong>Security Scout</strong> - Security Reviewer</td>
+    <td>Flagged or fixed a security-related issue</td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/📐-Design%20Aligner-indigo?style=flat-square" alt="Design Aligner"/></td>
+    <td><strong>Design Aligner</strong> - Figma to UI</td>
+    <td>Built a component based on a real-world Figma design</td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/💡-Idea%20Starter-yellow?style=flat-square" alt="Idea Starter"/></td>
+    <td><strong>Idea Starter</strong> - Feature Proposer</td>
+    <td>Suggested and shaped a feature that got accepted</td>
+  </tr>
+</table>
+
+---
+
+## 📊 Project Stats
+
+<div>
+  <img src="https://img.shields.io/badge/Total%20Contributors-3-blue?style=for-the-badge&logo=people" alt="Total Contributors"/>
+  <img src="https://img.shields.io/badge/Components%20Created-27+-green?style=for-the-badge&logo=puzzle-piece" alt="Components Created"/>
+  <img src="https://img.shields.io/badge/Themes%20Available-2-purple?style=for-the-badge&logo=palette" alt="Themes Available"/>
+  <img src="https://img.shields.io/badge/Templates%20Built-2-orange?style=for-the-badge&logo=template" alt="Templates Built"/>
+</div>
+
+---
+
+## 🤝 Want to Contribute?
+
+<div>
+  <p>Ready to earn your badges? Check out our <a href="CONTRIBUTING.md">Contributing Guide</a> to get started!</p>
+  
+  <a href="CONTRIBUTING.md">
+    <img src="https://img.shields.io/badge/Join%20Us-Contribute%20Now-brightgreen?style=for-the-badge&logo=github" alt="Contribute Now"/>
+  </a>
+</div>
 
 ---
 
 ## 🛡 Code of Conduct
 
-All contributors are expected to follow our [Code of Conduct](./CODE_OF_CONDUCT.md).
+All contributors must follow our [Code of Conduct](./CODE_OF_CONDUCT.md).
 
 ---
 
 ## 📝 License
 
-This project is licensed under the [Crossbuild UI License](./LICENSE).
+MIT for templates and themes.  
+Component packages (`@crossbuildui/*`) are licensed under the [Crossbuild UI License](./LICENSE).
+
+---
+
+Built with ❤️ by the Crossbuild UI community.
