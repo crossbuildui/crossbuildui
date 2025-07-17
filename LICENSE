@@ -6,57 +6,68 @@ This License Agreement ("Agreement") governs your use of all components, softwar
 
 1. General Principles
 
-The Software is proprietary to Crossbuild UI. Your rights to use the Software are strictly limited to the licenses granted herein. Unauthorized copying, use, modification, or distribution of this Software, or any part of it, is strictly prohibited.
+The Software is proprietary to Crossbuild UI. Your rights to use the Software are strictly limited to the licenses granted herein. Unauthorized copying, use, modification, or distribution of this Software, or any part of it, is strictly prohibited, except as explicitly permitted under this Agreement.
 
 2. Component Tiers and Licensing
 
-Crossbuild UI offers components under different tiers, each with specific licensing terms. Your ability to use the Software, particularly for commercial purposes, is primarily governed by your active subscription status on www.crossbuildui.com
+Crossbuild UI offers components under different tiers, each with specific licensing terms. Your ability to use certain components, particularly for commercial purposes, may be governed by your active subscription status on www.crossbuildui.com
 
 2.1 Free Components
 
 "Free Components" refer to the set of core components explicitly designated as Free on the official Crossbuild UI website (www.crossbuildui.com) and in its documentation.
 
-  - Non-Commercial Use (without subscription): Free Components may be used for Non-Commercial Use only without an active Crossbuild UI subscription. Non-Commercial Use is defined as use for personal projects, educational purposes, academic research, or projects by registered non-profit organizations where no direct or indirect commercial gain is involved.
-  - Commercial Use (with active subscription): If you possess an active Crossbuild UI subscription, you are granted a license to use Free Components for Commercial Use as part of your overall subscription benefits.
-  - Attribution: While not strictly required for Free Components, attribution to Crossbuild UI (e.g., "UI powered by Crossbuild UI") is appreciated.
+Universal License with Attribution:
+- Commercial and Non-Commercial Use: Free Components may be used for both Commercial and Non-Commercial purposes without requiring an active Crossbuild UI subscription.
+- Attribution Requirement: You must provide appropriate credit to Crossbuild UI when using Free Components. This attribution must include:
+  - A mention of "Crossbuild UI" as the source
+  - A link to www.crossbuildui.com when technically feasible
+  - Attribution can be placed in project documentation, source code comments, about sections, or any other reasonable location
+- Examples of acceptable attribution:
+  - "UI components powered by Crossbuild UI (www.crossbuildui.com)"
+  - "Built with Crossbuild UI components"
+  - Credit in project README, documentation, or application about page
+- Distribution: You may distribute applications or projects that include Free Components, provided proper attribution is maintained.
 
 2.2 Paid Components (Premium Library)
 
 "Paid Components" refer to the advanced and specialized components available only through a paid subscription or license purchase from www.crossbuildui.com
 
-  - Commercial Use (with active subscription only): Paid Components are licensed for Commercial Use only, and their use is exclusively permitted while you hold an active Crossbuild UI subscription.
+- Commercial Use (with active subscription only): Paid Components are licensed for Commercial Use only, and their use is exclusively permitted while you hold an active Crossbuild UI subscription.
+- Non-Commercial Use: Paid Components cannot be used for Non-Commercial purposes without an active subscription.
 
 2.3 Custom Components (On-Demand)
 
 "Custom Components" are bespoke components developed by Crossbuild UI specifically for a user based on a separate agreement and payment.
 
-  - Full Ownership & IP Rights (User): Upon final payment and delivery, the user for whom the Custom Component was developed will hold full ownership and all Intellectual Property (IP) rights to that specific Custom Component.
-  - Attribution (Developer): The user agrees to acknowledge Crossbuild UI as the developer of the Custom Component in a reasonable and mutually agreed-upon manner, typically in the project's source code comments or documentation. This attribution does not grant CrossBuild UI any ownership rights over the Custom Component.
+- Full Ownership & IP Rights (User): Upon final payment and delivery, the user for whom the Custom Component was developed will hold full ownership and all Intellectual Property (IP) rights to that specific Custom Component.
+- Attribution (Developer): The user agrees to acknowledge Crossbuild UI as the developer of the Custom Component in a reasonable and mutually agreed-upon manner, typically in the project's source code comments or documentation. This attribution does not grant CrossBuild UI any ownership rights over the Custom Component.
 
 3. Subscription-Based License Validity and Transferability
 
 3.1 License Validity
 
-Your license to use all components (both Free and Paid) for Commercial Use, and to access Paid Components, is valid only for the duration of your active subscription on www.crossbuildui.com
+Your license to use Paid Components for Commercial Use is valid only for the duration of your active subscription on www.crossbuildui.com
 
-  - As soon as your subscription is no longer active (e.g., due to cancellation, expiry, or non-renewal), your license to use the Software for Commercial Use, and your right to use Paid Components, immediately terminates.
-  - Upon termination of your subscription, you must cease all Commercial Use of the Software and, for Paid Components, cease all use entirely. For Free Components, your usage rights revert to Non-Commercial Use only.
+- As soon as your subscription is no longer active (e.g., due to cancellation, expiry, or non-renewal), your license to use Paid Components immediately terminates.
+- Upon termination of your subscription, you must cease all use of Paid Components entirely.
+- Free Components remain unaffected: Your right to use Free Components with proper attribution continues regardless of subscription status.
 
 3.2 Non-Transferability
 
 A subscription purchased by an individual, team, or organization is valid exclusively for that specific individual, team, or organization.
 
-  - The license granted under an active subscription is strictly non-transferable. It cannot be transferred, sold, leased, or sublicensed to any other individual, team, or organization.
-  - There are no specific user or project limits within an active subscription for the purchasing entity, unless explicitly stated otherwise in a separate enterprise agreement.
+- The license granted under an active subscription is strictly non-transferable. It cannot be transferred, sold, leased, or sublicensed to any other individual, team, or organization.
+- There are no specific user or project limits within an active subscription for the purchasing entity, unless explicitly stated otherwise in a separate enterprise agreement.
 
 4. Restrictions
 
 Unless explicitly permitted by this Agreement:
 
-  - You may not redistribute, sublicense, lease, sell, or otherwise transfer the Software or any of its components, whether modified or unmodified.
-  - You may not use the Software to create a competing component library, UI kit, or design system.
-  - You may not reverse engineer, decompile, or disassemble the Software.
-  - You may not remove or obscure any copyright, trademark, or other proprietary notices from the Software.
+- You may not redistribute, sublicense, lease, sell, or otherwise transfer the Software or any of its components as standalone products, whether modified or unmodified.
+- You may not use the Software to create a competing component library, UI kit, or design system.
+- You may not reverse engineer, decompile, or disassemble the Software.
+- You may not remove or obscure any copyright, trademark, or other proprietary notices from the Software.
+- Free Components Exception: The above restrictions do not prevent the legitimate use and distribution of Free Components as part of larger applications or projects, provided proper attribution is maintained.
 
 5. Disclaimer of Warranty
 
@@ -64,7 +75,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 6. Termination
 
-This Agreement is effective until terminated. Your rights under this Agreement will terminate automatically without notice from Crossbuild UI if your subscription becomes inactive, or if you fail to comply with any of its terms. Upon termination, you must cease all use of the Software as specified in Section 3.1 and destroy all copies, full or partial.
+This Agreement is effective until terminated. Your rights under this Agreement will terminate automatically without notice from Crossbuild UI if your subscription becomes inactive (for Paid Components only), or if you fail to comply with any of its terms. Upon termination:
+
+- You must cease all use of Paid Components and destroy all copies, full or partial.
+- Your right to use Free Components continues with proper attribution requirements.
+- Failure to provide proper attribution for Free Components may result in termination of your license to use Free Components.
 
 7. Governing Law
 
