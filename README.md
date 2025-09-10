@@ -157,6 +157,17 @@ We credit all contributors who help build Crossbuild UI on:
       <img src="https://img.shields.io/badge/🐛-Bug%20Buster-red?style=flat-square" alt="Bug Buster"/>
       <img src="https://img.shields.io/badge/🚀-Early%20Builder-orange?style=flat-square" alt="Early Builder"/>
     </td>
+    <td align="center" width="200px">
+      <a href="https://github.com/Cloud-Dark">
+        <img src="https://github.com/Cloud-Dark.png" width="100px;"/>
+        <br />
+        <sub><b>Cloud Dark</b></sub>
+        <br/>
+      </a>
+      <br />
+      <img src="https://img.shields.io/badge/🎨-Theme%20Wizard-purple?style=flat-square" alt="Theme Wizard"/>
+      <img src="https://img.shields.io/badge/🚀-Early%20Builder-orange?style=flat-square" alt="Early Builder"/>
+    </td>
   </tr>
 </table>
 
